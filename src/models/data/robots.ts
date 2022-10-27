@@ -2,17 +2,17 @@ import { IRobot } from "../robot.model";
 
 export const robots: Array<IRobot> = [
     {
-        name: "Bender",
+        name: "Robot 1",
         image: "https://robohash.org/54",
-        speed: 2,
+        speed: 10,
         endurance: 5,
-        date: "",
+        date: "27/10/2022",
     },
     {
-        name: "Wall-e",
+        name: "Robot 2",
         image: "https://robohash.org/32",
-        speed: 2,
-        endurance: 5,
-        date: "",
+        speed: 8,
+        endurance: 8,
+        date: "27/10/2022",
     },
 ];
